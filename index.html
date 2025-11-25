@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body id="appBody" class="default-background"> 
+    
+    <div class="floating-shape"></div>
+    <div class="floating-shape"></div>
+    <div class="floating-shape"></div>
+
+    <div class="container">
+        <h1 class="title">Weather App</h1>
+
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div id="currentWeather" class="card initial-template">
+            <div id="currentWeatherContent">
+                <h2 class="placeholder-text">City, Country</h2>
+                <h1 class="placeholder-temp">--°C</h1>
+                <p class="placeholder-desc">WAITING FOR INPUT</p>
+                <img class="placeholder-img" src="https://via.placeholder.com/80x80?text=..." alt="Weather Icon">
+                <p class="placeholder-detail">Humidity: --%</p>
+                <p class="placeholder-detail">Wind: -- m/s</p>
+            </div>
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Loading...</p>
+            </div>
+        </div>
+
+        <h2 id="forecastTitle" class="hidden">5-Day Forecast</h2>
+        <div id="forecast" class="forecast-grid hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
