@@ -1,4 +1,4 @@
-const API_KEY_PLACEHOLDER = "This is no longer needed on the client-side for security.";
+const API_KEY_PLACEHOLDER = ".";
 
 document.getElementById("searchBtn").addEventListener("click", getWeather);
 
