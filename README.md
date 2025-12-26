@@ -33,22 +33,22 @@ Weather-App
 
 1. Clone the repository
 
-  ```bash
-  git clone <repository-link>
-  cd weather-app
-  ```
+    ```bash
+    git clone <repository-link>
+    cd weather-app
+    ```
 
 2. Install dependencies
 
-  ```bash
-  npm install
-  ```
+    ```bash
+    npm install
+    ```
 
-4. Set up your API Key:
+3. Set up your API Key:
     * Create a `.env` file in the root directory.
     * Add your key: `OPENWEATHER_API_KEY=your_key_here`.
 
-5. Run with Vercel CLI:
+4. Run with Vercel CLI:
     To run the app and the backend functions together, use the Vercel development server:
    
     ```bash
